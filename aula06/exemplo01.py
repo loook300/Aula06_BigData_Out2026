@@ -9,7 +9,7 @@ print('''
 
 
 ''')
-
+#true 
 desconto = 0 
 opcao = int (input('Informe a opção Escolhida:  '))
 
@@ -29,7 +29,8 @@ match opcao :
             desconto = valor * 0.15
     case _ :
             print('----Opção Invalida----')
-
+#if operacao == true :
+#if opcao in [1, 2, 3, 4]:
 if desconto !=0 :
        valor_final = valor - desconto
        print(f'Preço : {valor}')
